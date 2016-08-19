@@ -76,10 +76,10 @@ java -jar AutoTraveler.jar ｛系统类型｝ ｛配置文件｝
 
 启动Android的遍历测试
 
-java -jar AutoTraveler.jar android confige/android.xml
+java -jar AutoTraveler.jar android config/android.xml
 
 启动iOS的遍历测试
 
-java -jar AutoTraveler.jar ios confige/ios.xml
+java -jar AutoTraveler.jar ios config/ios.xml
 
 注意：日志会在同目录的output下，按时间、udid分类输出
