@@ -9,7 +9,7 @@
     </capability>
     <androidCapability>
         <!--<app>E://soft//eclipse//AutoTraveler-master//apps//yizhangtong-4.3.1-debug.apk</app> 存放apk的绝对路径 -->
-        <app>apps//yizhangtong-4.3.1-debug.apk</app>
+        <app>E://Apps//Jenkins//workspace//AutoTraveler//apps//yizhangtong-4.3.1-debug.apk</app>
         <udid>47ffc0e1</udid><!-- 设备的udid，可以在cmd命令行中输入adb devices来查看 -->
 		<platformName>Android</platformName>
 		<platformVersion>5.0</platformVersion><!-- Android系统版本 -->
@@ -122,7 +122,7 @@
         <depth>3</depth>
         <!--截图和视频的目录-->
         <!-- <screenshot>E:\\soft\\eclipse\\AutoTraveler-master\\png\\</screenshot> -->
-        <screenshot>png\\</screenshot>
+        <screenshot>E:\\Apps\\Jenkins\\workspace\\AutoTraveler\\png\\</screenshot>
         <!--启动appium-->
         <!--遍历时间 分-->
         <duration>0</duration><!-- 若为0则遍历时间不限 -->
