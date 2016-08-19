@@ -1,0 +1,15 @@
+构建通知:$BUILD_STATUS! Daily_API_Test - Build # $BUILD_NUMBER - 
+<hr/>
+
+(本邮件是程序自动下发的，请勿回复！)<br/>
+
+项目名称：$PROJECT_NAME<br/>
+
+构建地址：<br/>
+<a href="$BUILD_URL">$BUILD_URL</a><br/>
+
+详细执行情况：<br/>
+http://10.59.96.16:8080/jenkins/job/AutoTraveler/report.html<br/>
+
+执行情况总览：<br/>
+${FILE,path="report.html"}<br/>
